@@ -4,7 +4,9 @@ CFDEM is a coupling software that allows coupled CFD and DEM simulations. It use
 
 # Steps 
 
-cd $HOME
+```
+  cd $HOME
+```
 
 mkdir CFDEM
 cd CFDEM
