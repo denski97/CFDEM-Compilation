@@ -89,13 +89,13 @@ gedit ~/LIGGGHTS/LIGGGHTS-PUBLIC/src/MAKE/Makefile.user # Maybe the file is call
 ``
 Save and exit gedit. We now call the CFDEM program that compiles LIGGGHTS for us.
 ```
-# Compile LIGGGHTS -> This will probably fail (you can test this by attempting to run lmp_auto in the LIGGGHTS/LIGGGHTs-PUBLIC src directory after compilation)
+\# Compile LIGGGHTS -> This will probably fail (you can test this by attempting to run lmp_auto in the LIGGGHTS/LIGGGHTs-PUBLIC src directory after compilation)
 cfdemCompLIG # This command compiles LIGGGHTS and installs VTK as well
 ```
 If lmp_auto does not work, find the file where VTK was installed: Probably under ~/LIGGGHTS/LIGGGHTS-PUBLIC/lib/vtk/install/lib if VTK was installed as it was here. Again, we edit the bashrc file and add the VTK path:
 ```
 gedit ~/.bashrc
-# Add the following line to the end
+\# Add the following line to the end
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:~/LIGGGHTS/LIGGGHTS-PUBLIC/lib/vtk/install/lib/
 ```	
 Save, exit and renew the nevironment
